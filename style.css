@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #bfbb8fd9;
+/* background-color: rgba(236, 231, 231, 0.929); */
+}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rebeccapurple; */
+}
+
+.nav h1::first-letter{
+    color: crimson;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+font-size: 2.5vmax;
+
+}
+
+.nav ul li{
+    display: flex;
+    gap: 80px;
+}
+
+.nav ul li h2{
+    font-size: 1vmax;
+}
+
+.nav ul li h2:hover{
+    cursor: pointer;
+    text-decoration: overline;
+    color: crimson;
+}
+
+.products{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    /* background-color: darkblue; */
+}
+
+.b1{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.text{
+    width: 100%;
+    height: 80%;
+    display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: aqua; */
+}
+
+.pre-next{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+/* background-color: rebeccapurple; */
+}
+
+.pre-next h1{
+font-size: 1.2vmax;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.text h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+font-size: 4vmax;
+rotate: 270deg;
+margin-left: -8vmax;
+}
+
+.b1 p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: -4vmax;
+rotate: 270deg;
+opacity: 0.5;
+}
+
+.b2{
+    width: 19%;
+    height: 88%;
+    background-color: rgba(21, 177, 130, 0.91);
+    border-top-right-radius: 1vmax;
+    border-top-left-radius: 1vmax;
+}
+
+.b2 h1{
+   margin-left: 1vmax;
+   color: white;
+   font-weight: 100;
+}
+
+.b2 h2{
+    margin-left: 1vmax;
+    margin-top: -2.5vmax;
+    font-weight: 200;
+    color: white;
+}
+
+.b2 h3{
+    width: 20%;
+    margin-left: 1vmax;
+    margin-top: 0.5vmax;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.b2 img{
+rotate: -30deg;
+width: 160%;
+margin-top: -12vmax;
+margin-left: -8vmax;
+}
+
+.b3{
+    width: 18%;
+    height: 75%;
+    background-color: orangered;
+    border-top-right-radius: 1vmax;
+    border-top-left-radius: 1vmax;
+}
+
+.b3 h1{
+    margin-left: 1vmax;
+    color: white;
+    font-weight: 100;
+ }
+ 
+ .b3 h2{
+     margin-left: 1vmax;
+     margin-top: -10vmax;
+     font-weight: 200;
+     color: white;
+ }
+ 
+ 
+ .b3 img{
+ rotate: -10deg;
+ width: 235%;
+ margin-top: -10vmax;
+ margin-left: -12.5vmax;
+ }
+ 
+
+
+.b4{
+    width: 20%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.lobo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    /* background-color: saddlebrown; */
+}
+
+.lobo img{
+    width: 30%;
+}
+
+.social-media{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: aqua; */
+}
